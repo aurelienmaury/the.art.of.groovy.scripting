@@ -1,2 +1,14 @@
 This repository is made to help learn Groovy scripting
 
+Look at the associated github Wiki to get script samples.
+
+INFOS
+
+goldpot/ is a Grails application aimed at animating a Groovy scripting contest
+
+TODO
+
+- add a playground/ directory, containing several files and sub-directories so that anyone 
+can play data-mining on it.
+- write real-life usable scripts, clean-coded and documented
+
