@@ -1,13 +1,13 @@
 <head>
   <meta name="layout" content="main"/>
-  <title>Welcome to Xebia</title>
+  <title>The.Art.Of.Groovy.Scripting</title>
 </head>
 
 <body>
 <div class="hero-unit ctxt">
   <h1>Hall of fame</h1>
 
-  <p>Only the quickest ones shall pass</p>
+  <p>Only the smartest shall pass ...</p>
 </div>
 
 <div class="row">

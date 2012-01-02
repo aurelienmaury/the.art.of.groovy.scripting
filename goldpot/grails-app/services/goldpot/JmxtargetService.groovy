@@ -4,7 +4,13 @@ class JmxtargetService {
 
   static expose = ['jmx']
 
-  boolean winnerIs(String name) {
-    new JmxWinner(name: name).save()
+  Status myStatus
+
+  boolean winnerIs(String name, String uuid) {
+    if (uuid == myStatus.uuid) {
+      new JmxWinner(name: name).save()
+    } else {
+      false
+    }
   }
 }
