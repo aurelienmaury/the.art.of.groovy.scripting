@@ -20,12 +20,20 @@
     </ol>
   </div>
 
-  <div class="span-one-third ctxt">
-    <h2>JSON</h2>
+  <div class="span-one-third">
+    <div class="ctxt"><h2>JSON</h2></div>
+    <ol>
+      <g:each in="${jsonWin}" var="winner">
+        <li>${winner.name}</li>
+      </g:each>
+    </ol>
   </div>
 
-  <div class="span-one-third ctxt">
-    <h2>CSV</h2>
+  <div class="span-one-third">
+    <div class="ctxt"><h2>CSV</h2></div>
+    <ol>
+
+    </ol>
   </div>
 </div>
 </body>
