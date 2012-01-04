@@ -10,5 +10,5 @@ package goldpot
 class Status {
   static expose = ['jmx']
 
-  String uuid
+  String magic
 }

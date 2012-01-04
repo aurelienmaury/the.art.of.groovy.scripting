@@ -1,6 +1,6 @@
 // Place your Spring DSL code here
 beans = {
   myStatus(goldpot.Status) {
-    uuid = UUID.randomUUID().toString()
+    magic = "Beau barbu boit bibine. Bibine bue, beau barbu boite."
   }
 }
